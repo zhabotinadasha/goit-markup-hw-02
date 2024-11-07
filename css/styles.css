@@ -24,7 +24,6 @@ button {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -37,7 +36,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-align: left;
 }
 
 .dark {
@@ -65,7 +63,11 @@ button {
   color: #2e2f42;
 }
 
-.studuio-link:active {
+.nav-link:active {
+  color: #404bbf;
+}
+
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -88,15 +90,14 @@ button {
   color: #404bbf;
 }
 
-.hero {
-  background: #2e2f42;
+.header-adress: :focus {
+  color: #404bbf;
 }
 
 .hero-heading {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
@@ -106,12 +107,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
 .hero-btn:hover,
-.hero-btn:active {
+.hero-btn:active,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -146,12 +147,11 @@ button {
   line-height: 1.11;
   text-transform: capitalize;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
 .team-list {
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 .team-item {}
@@ -179,7 +179,6 @@ button {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -202,7 +201,7 @@ button {
 
 }
 
-footer {
+.footer {
   background-color: #2e2f42;
 }
 
