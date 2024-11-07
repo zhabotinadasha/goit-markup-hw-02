@@ -86,14 +86,8 @@ button {
   color: inherit;
 }
 
-.header-adress-link:hover {
-  color: #404bbf;
-}
-
-.header-adress-link:active {
-  color: #404bbf;
-}
-
+.header-adress-link:hover,
+.header-adress-link:active,
 .header-adress-link:focus {
   color: #404bbf;
 }
