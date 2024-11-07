@@ -90,7 +90,7 @@ button {
   color: #404bbf;
 }
 
-.header-adress:focus {
+.header-adress:active {
   color: #404bbf;
 }
 
