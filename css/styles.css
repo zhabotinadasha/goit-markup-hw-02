@@ -1,0 +1,197 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #fff;
+  color: #434455;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1, 11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-align: left;
+}
+
+.dark {
+  color: #2e2f42;
+}
+
+.light {
+  color: #F4F4FD;
+}
+
+
+.header {}
+
+.nav {}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover {
+  color: #404bbf;
+}
+
+
+.header-adress {}
+
+.header-adress-link {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.header-adress:hover {
+  color: #404bbf;
+}
+
+.hero {
+  background: #2e2f42;
+}
+
+.hero-heading {
+  font-size: 56px;
+  line-height: 1, 07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+.hero-btn:hover {
+  color: #404bbf;
+}
+
+
+.features {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+}
+
+
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1, 11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+}
+
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
