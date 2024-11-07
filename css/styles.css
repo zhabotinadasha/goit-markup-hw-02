@@ -86,11 +86,11 @@ button {
   color: inherit;
 }
 
-.header-adress:hover {
+.header-adress-link:hover {
   color: #404bbf;
 }
 
-.header-adress:active {
+.header-adress-link:active {
   color: #404bbf;
 }
 
