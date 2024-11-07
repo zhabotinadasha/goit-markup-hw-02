@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
 }
@@ -22,7 +22,7 @@ button {
 
 .section-title {
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -32,7 +32,8 @@ button {
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  line-height: 1, 17;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -59,9 +60,13 @@ button {
 .nav-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.studuio-link:active {
+  color: #404bbf;
 }
 
 .nav-link:hover {
@@ -74,7 +79,7 @@ button {
 .header-adress-link {
   font-family: inherit;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
 }
@@ -89,7 +94,7 @@ button {
 
 .hero-heading {
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -98,15 +103,16 @@ button {
 .hero-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
-.hero-btn:hover {
-  color: #404bbf;
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #404bbf;
 }
 
 
@@ -119,14 +125,14 @@ button {
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .features-text {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -137,34 +143,45 @@ button {
 
 .team-title {
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+  background-color: #fff;
+}
 
 .team-item {}
 
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .team-text {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 
 .portfolio {}
 
-.portfolio-title {}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 
 .portfolio-list {}
 
@@ -173,14 +190,14 @@ button {
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .portfolio-text {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
 }
@@ -191,7 +208,7 @@ footer {
 
 .footer-text {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
