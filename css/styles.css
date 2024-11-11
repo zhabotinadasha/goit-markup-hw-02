@@ -20,14 +20,6 @@ button {
   cursor: pointer;
 }
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -46,6 +38,36 @@ button {
   color: #F4F4FD;
 }
 
+/* Common styles */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 
 .header {}
 
@@ -57,9 +79,6 @@ button {
 
 .nav-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -80,9 +99,6 @@ button {
 
 .header-adress-link {
   font-family: inherit;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: inherit;
 }
 
@@ -126,33 +142,16 @@ button {
 
 .features-item {}
 
-.features-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+.features-subtitle {}
 
-.features-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+.features-text {}
 
 
 .team {
   background: #f4f4fd;
 }
 
-.team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+.team-title {}
 
 .team-list {}
 
@@ -160,59 +159,29 @@ button {
   background-color: #FFFFFF;
 }
 
-.team-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+.team-subtitle {}
 
-.team-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+.team-text {}
 
 
 .portfolio {}
 
 .portfolio-title {
   font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  text-transform: capitalize;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .portfolio-list {}
 
 .portfolio-item {}
 
-.portfolio-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+.portfolio-subtitle {}
 
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-}
+.portfolio-text {}
 
 .footer {
   background-color: #2e2f42;
 }
 
 .footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
